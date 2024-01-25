@@ -1092,7 +1092,7 @@ video {
     text-align: left;
     margin-left: 1120px;
 }
-@media only screen and (min-width: 1366px) and (min-height: 768px) 
+@media only screen and (min-width: 1920px) and (min-height: 1080px) 
 { 
 /* Add your styles here */ body { font-size: 16px;
 }

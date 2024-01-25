@@ -1,0 +1,1094 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+ul {
+    list-style: none;
+    background: #5078ce;
+}
+
+
+.logo {
+    width: 180px;
+    margin-top: -45px;
+    margin-left: 1300px;
+    cursor: pointer;
+    position: fixed;
+    z-index: 1000;
+}
+
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+
+ul li a {
+    display: block;
+    padding: 20px 55px;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 0px;
+}
+
+
+ul li ul.zones li {
+    display: block;
+}
+
+
+ul li ul.zones {
+    width: 100%;
+    background: #5078ce;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+
+ul li a:hover {
+    background: #112c66;
+}
+
+
+ul li:hover ul.zones {
+    display: block;
+}
+
+
+ul li a .zones {
+    margin-left: 10px;
+}
+
+
+/* Styles for the right dropdown submenu */
+.dropdown1 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background: #5078ce;
+    z-index: 999;
+}
+
+
+.dropdown1 ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+.dropdown1 li {
+    display: block;
+}
+
+
+.zones li:hover .dropdown1 {
+    display: block;
+}
+
+
+.content {
+    width: 100%;
+    position: absolute;
+    color: rgb(248, 250, 252);
+    top: 45%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 50px;
+}
+.content h1{
+    margin-top: 8%;
+    font-size: 99px;
+    font-weight: 900;
+    letter-spacing: 15px;
+}
+@media(min-aspect-ratio: 16/9){
+    .banner video{
+        width: 100%;
+        height: auto;
+    }
+}
+.what{
+    text-align: center;
+    font-size: 50px;
+}
+.dolphin{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+   
+}
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+   
+}
+.s1{
+    width: 50%;
+    position: absolute;
+    color: rgb(25, 87, 219);
+    top: 125%;
+    transform: translateY(-50%);
+    transform: translateX(30px);
+    text-align: left;
+    font-size: 55px;
+    cursor: pointer;
+}
+
+
+.content1{
+    width: 50%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 160%;
+    transform: translateY(-50%);
+    transform: translateX(30px);
+    font-size: 35px;
+}
+.Story1{
+    width: 100%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 130%;
+    transform: translateY(-50%);
+    transform: translateX(3px);
+    font-size: 25px;
+    text-align: justify;
+}
+.s2{
+    width: 50%;
+    position: absolute;
+    color: rgb(4, 67, 194);
+    top: 225%;
+    transform: translateY(-50%);
+    transform: translateX(94%);
+    text-align: right;
+    font-size: 55px;
+    cursor: pointer;
+}
+.content2{
+    width: 50%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 240%;
+    transform: translateY(-50%);
+    transform: translateX(700px);
+    font-size: 35px;
+    text-align: right;
+ 
+}
+.Story2{
+    width: 75%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 255%;
+    transform: translateY(-50%);
+    transform: translateX(310px);
+    font-size: 25px;
+    text-align: right;
+}
+.s3{
+    width: 65%;
+    position: absolute;
+    color: rgb(18, 42, 95);
+    top: 325%;
+    transform: translateY(-50%);
+    transform: translateX(30px);
+    text-align: left;
+    font-size: 55px;
+    cursor: pointer;
+}
+.content3{
+    width: 50%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 345%;
+    transform: translateY(-50%);
+    transform: translateX(30px);
+    font-size: 35px;
+}
+.Story3{
+    width: 50%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 360%;
+    transform: translateY(-50%);
+    transform: translateX(30px);
+    font-size: 25px;
+    text-align: justify;
+}
+.content a{
+    line-height: 2;
+    letter-spacing: -2px;
+}
+.sdgbg {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.ez{
+    width: 100%;
+    position: absolute;
+    color: rgb(246, 243, 243);
+    top: 427%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.sdglogo{
+    width: 95px;
+    margin-top: -555px;
+    margin-left: 200px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+}
+.sdg14{
+    width: 100%;
+    position: absolute;
+    color: rgb(246, 243, 243);
+    top: 446%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.t1{
+    width: 289px;
+    margin-top: -434px;
+    margin-left: 55px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+}
+.t2{
+    width: 289px;
+    margin-top: -434px;
+    margin-left: 625px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+}
+.t3{
+    width: 289px;
+    margin-top: -434px;
+    margin-left: 1156px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+}
+.s4{
+    width: 65%;
+    position: absolute;
+    color: rgb(166, 191, 253);
+    top: 520%;
+    transform: translateY(-50%);
+    transform: translateX(30px);
+    text-align: left;
+    font-size: 55px;
+    cursor: pointer;
+}
+.content4{
+    width: 50%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 535%;
+    transform: translateY(-50%);
+    transform: translateX(35px);
+    font-size: 35px;
+}
+.Story4{
+    width: 50%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 550%;
+    transform: translateY(-50%);
+    transform: translateX(35px);
+    font-size: 25px;
+    text-align: justify;
+}
+.s5{
+    width: 65%;
+    position: absolute;
+    color: rgb(166, 191, 253);
+    top: 620%;
+    transform: translateY(-50%);
+    transform: translateX(30px);
+    text-align: left;
+    font-size: 55px;
+    cursor: pointer;
+}
+.content5{
+    width: 50%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 652%;
+    transform: translateY(-50%);
+    transform: translateX(35px);
+    font-size: 35px;
+}
+.Story5{
+    width: 50%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 665%;
+    transform: translateY(-50%);
+    transform: translateX(35px);
+    font-size: 25px;
+    text-align: justify;
+}
+.mz{
+    width: 100%;
+    position: absolute;
+    color: rgb(246, 243, 243);
+    top: 720%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.sdglogo{
+    width: 95px;
+    margin-top: -555px;
+    margin-left: 200px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+}
+.sdg14_2{
+    width: 100%;
+    position: absolute;
+    color: rgb(246, 243, 243);
+    top: 744%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.t4{
+    width: 289px;
+    margin-top: -434px;
+    margin-left: 55px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+}
+.t5{
+    width: 289px;
+    margin-top: -434px;
+    margin-left: 625px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+}
+.t6{
+    width: 289px;
+    margin-top: -434px;
+    margin-left: 1156px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+}
+.s6{
+    width: 65%;
+    position: absolute;
+    color: rgb(166, 191, 253);
+    top: 820%;
+    transform: translateY(-50%);
+    transform: translateX(30px);
+    text-align: left;
+    font-size: 55px;
+    cursor: pointer;
+}
+.content6{
+    width: 50%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 853%;
+    transform: translateY(-50%);
+    transform: translateX(35px);
+    font-size: 35px;
+}
+.Story6{
+    width: 50%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 868%;
+    transform: translateY(-50%);
+    transform: translateX(35px);
+    font-size: 25px;
+    text-align: justify;
+}
+.s7{
+    width: 50%;
+    position: absolute;
+    color: rgb(4, 67, 194);
+    top: 915%;
+    transform: translateY(-50%);
+    transform: translateX(94%);
+    text-align: right;
+    font-size: 55px;
+    cursor: pointer;
+}
+.content7{
+    width: 50%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 947%;
+    transform: translateY(-50%);
+    transform: translateX(700px);
+    font-size: 35px;
+    text-align: right;
+}
+.Story7{
+    width: 75%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 960%;
+    transform: translateY(-50%);
+    transform: translateX(310px);
+    font-size: 25px;
+    text-align: right;
+}
+.s8{
+    width: 65%;
+    position: absolute;
+    color: rgb(166, 191, 253);
+    top: 1015%;
+    transform: translateY(-50%);
+    transform: translateX(30px);
+    text-align: left;
+    font-size: 55px;
+    cursor: pointer;
+}
+.content8{
+    width: 50%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 1049%;
+    transform: translateY(-50%);
+    transform: translateX(35px);
+    font-size: 35px;
+}
+.Story8{
+    width: 50%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 1065%;
+    transform: translateY(-50%);
+    transform: translateX(35px);
+    font-size: 25px;
+    text-align: justify;
+}
+.bz{
+    width: 100%;
+    position: absolute;
+    color: rgb(246, 243, 243);
+    top: 1120%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.sdglogo{
+    width: 95px;
+    margin-top: -555px;
+    margin-left: 200px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+}
+.sdg14_3{
+    width: 100%;
+    position: absolute;
+    color: rgb(246, 243, 243);
+    top: 1142%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.t7{
+    width: 289px;
+    margin-top: -434px;
+    margin-left: 345px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+}
+.ta{
+    width: 289px;
+    margin-top: -434px;
+    margin-left: 789px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+}
+.s9{
+    width: 65%;
+    position: absolute;
+    color: rgb(166, 191, 253);
+    top: 1215%;
+    transform: translateY(-50%);
+    transform: translateX(30px);
+    text-align: left;
+    font-size: 55px;
+    cursor: pointer;
+}
+.content9{
+    width: 50%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 1247%;
+    transform: translateY(-50%);
+    transform: translateX(35px);
+    font-size: 35px;
+}
+.Story9{
+    width: 50%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 1261%;
+    transform: translateY(-50%);
+    transform: translateX(35px);
+    font-size: 25px;
+    text-align: justify;
+}
+.s10{
+    width: 50%;
+    position: absolute;
+    color: rgb(4, 67, 194);
+    top: 1320%;
+    transform: translateY(-50%);
+    transform: translateX(94%);
+    text-align: right;
+    font-size: 55px;
+    cursor: pointer;
+}
+.content10{
+    width: 50%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 1337%;
+    transform: translateY(-50%);
+    transform: translateX(700px);
+    font-size: 35px;
+    text-align: right;
+}
+.Story10{
+    width: 75%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 1352%;
+    transform: translateY(-50%);
+    transform: translateX(310px);
+    font-size: 25px;
+    text-align: right;
+}
+.s11{
+    position: absolute;
+    color: rgb(166, 191, 253);
+    top: 1425%;
+    transform: translateY(-50%);
+    transform: translateX(30px);
+    text-align: left;
+    font-size: 55px;
+    cursor: pointer;
+}
+.content11{
+    width: 50%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 1443%;
+    transform: translateY(-50%);
+    transform: translateX(35px);
+    font-size: 35px;
+}
+.Story11{
+    width: 50%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 1457%;
+    transform: translateY(-50%);
+    transform: translateX(35px);
+    font-size: 25px;
+    text-align: justify;
+}
+.az{
+    width: 100%;
+    position: absolute;
+    color: rgb(246, 243, 243);
+    top: 1517%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.sdglogo{
+    width: 95px;
+    margin-top: -555px;
+    margin-left: 200px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+}
+.sdg14_4{
+    width: 100%;
+    position: absolute;
+    color: rgb(246, 243, 243);
+    top: 1539%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.tb{
+    width: 289px;
+    margin-top: -434px;
+    margin-left: 345px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+}
+.tc{
+    width: 289px;
+    margin-top: -434px;
+    margin-left: 789px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+}
+.s12{
+    position: absolute;
+    color: rgb(166, 191, 253);
+    top: 1619%;
+    transform: translateY(-50%);
+    transform: translateX(30px);
+    text-align: left;
+    font-size: 55px;
+    cursor: pointer;
+}
+.content12{
+    width: 50%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 1634%;
+    transform: translateY(-50%);
+    transform: translateX(35px);
+    font-size: 35px;
+}
+.Story12{
+    width: 50%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 1649%;
+    transform: translateY(-50%);
+    transform: translateX(35px);
+    font-size: 25px;
+    text-align: justify;
+}
+.s13{
+    position: absolute;
+    color: rgb(166, 191, 253);
+    top: 1715%;
+    transform: translateY(-50%);
+    transform: translateX(30px);
+    text-align: left;
+    font-size: 55px;
+    cursor: pointer;
+}
+.content13{
+    width: 50%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 1733%;
+    transform: translateY(-50%);
+    transform: translateX(35px);
+    font-size: 35px;
+}
+.Story13{
+    width: 50%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 1750%;
+    transform: translateY(-50%);
+    transform: translateX(35px);
+    font-size: 25px;
+    text-align: justify;
+}
+.s14{
+    position: absolute;
+    color: rgb(166, 191, 253);
+    top: 1815%;
+    transform: translateY(-50%);
+    transform: translateX(30px);
+    text-align: left;
+    font-size: 55px;
+    cursor: pointer;
+}
+.content14{
+    width: 50%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 1831%;
+    transform: translateY(-50%);
+    transform: translateX(35px);
+    font-size: 35px;
+}
+.Story14{
+    width: 50%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 1845%;
+    transform: translateY(-50%);
+    transform: translateX(35px);
+    font-size: 25px;
+    text-align: justify;
+}
+.hz{
+    width: 100%;
+    position: absolute;
+    color: rgb(246, 243, 243);
+    top: 1913%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.cleanup_drive{
+    width: 100%;
+    position: absolute;
+    color: rgb(246, 243, 243);
+    top: 1930%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.manila1{
+    width: 289px;
+    margin-top: -470px;
+    margin-left: 100px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+}
+.manila2{
+    width: 289px;
+    margin-top: -470px;
+    margin-left: 440px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+}
+.smc1{
+    width: 289px;
+    margin-top: -470px;
+    margin-left: 780px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+}
+.smc2{
+    width: 289px;
+    margin-top: -470px;
+    margin-left: 1123px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+}
+.namria1{
+    width: 289px;
+    margin-top: -250px;
+    margin-left: 100px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+}
+.namria2{
+    width: 289px;
+    margin-top: -250px;
+    margin-left: 440px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+}
+.corregidor1{
+    width: 289px;
+    margin-top: -250px;
+    margin-left: 780px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+}
+.corregidor2{
+    width: 289px;
+    margin-top: -250px;
+    margin-left: 1123px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+}
+.dropdown2 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background: #5078ce;
+    z-index: 999;
+}
+
+
+.dropdown2 ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+.dropdown2 li {
+    display: block;
+}
+
+
+.zones li:hover .dropdown2 {
+    display: block;
+}
+
+
+/* Additional styles for better visual representation */
+.dropdown2 a {
+    display: block;
+    padding: 10px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+.dropdown2 a:hover {
+    background: #112c66;
+}
+.dropdown3 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background: #5078ce;
+    z-index: 999;
+}
+
+
+.dropdown3 ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+.dropdown3 li {
+    display: block;
+}
+
+
+.zones li:hover .dropdown3 {
+    display: block;
+}
+
+
+/* Additional styles for better visual representation */
+.dropdown3 a {
+    display: block;
+    padding: 10px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+.dropdown3 a:hover {
+    background: #112c66;
+}
+/* Styles for Abyssopelagic dropdown */
+.dropdown4 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background: #5078ce;
+    z-index: 999;
+}
+
+
+.dropdown4 ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+.dropdown4 li {
+    display: block;
+}
+
+
+.zones li:hover .dropdown4 {
+    display: block;
+}
+
+
+/* Additional styles for better visual representation */
+.dropdown4 a {
+    display: block;
+    padding: 10px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+.dropdown4 a:hover {
+    background: #112c66;
+}
+
+
+/* Keep the original CSS code */
+
+
+/* Adjust the positioning as needed */
+.zones li {
+    position: relative;
+}
+
+
+.dropdown5 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    margin-top: 290px; /* Adjust this value to position it properly */
+    background: #5078ce;
+    z-index: 999;
+}
+
+
+.dropdown5 ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+.dropdown5 li {
+    display: block;
+}
+
+
+.zones:hover .dropdown5 {
+    display: block;
+}
+
+
+/* Additional styles for better visual representation */
+.dropdown5 a {
+    display: block;
+    padding: 10px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+.dropdown5 a:hover {
+    background: #112c66;
+}
+
+.aboutus{
+    width: 100%;
+    position: absolute;
+    color: rgb(246, 243, 243);
+    top:2015%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;  
+}
+.me{
+    width: 289px;
+    margin-top: 60px;
+    margin-left: 35px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+}
+.ryan{
+    width: 289px;
+    margin-top: 60px;
+    margin-left: -678px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+}
+.tine{
+    width: 289px;
+    margin-top: 60px;
+    margin-left: -318px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+}
+.ralph{
+    width: 289px;
+    margin-top: 60px;
+    margin-left: 385px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+}
+.ryann{
+    width: 20%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 310%;
+    transform: translateY(-55%);
+    transform: translateX(35px);
+    font-size: 25px;
+    text-align: left;
+    margin-left: 50px;
+}
+.tinee{
+    width: 20%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 310%;
+    transform: translateY(-55%);
+    transform: translateX(35px);
+    font-size: 25px;
+    text-align: left;
+    margin-left: 405px;
+}
+.mee{
+    width: 18%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 310%;
+    transform: translateY(-55%);
+    transform: translateX(35px);
+    font-size: 25px;
+    text-align: left;
+    margin-left: 762px;
+}
+.ralphh{
+    width: 20%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 310%;
+    transform: translateY(-55%);
+    transform: translateX(35px);
+    font-size: 25px;
+    text-align: left;
+    margin-left: 1120px;
+}
